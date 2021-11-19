@@ -28,4 +28,8 @@ def find_pet_by_name(pet_shop, name):
         if pet["name"] == name:
             return pet
 
+def remove_pet_by_name(pet_shop, name):
+    return pet_shop["pets"].remove(find_pet_by_name(pet_shop, name))
+    
+
 
