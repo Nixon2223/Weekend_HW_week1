@@ -40,6 +40,10 @@ def get_customer_cash(customer):
 def remove_customer_cash(customer, amount):
     customer["cash"] -= amount
 
+def get_customer_pet_count(customer):
+    return len(customer["pets"])
+
+
 
 
     
